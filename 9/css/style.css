@@ -40,12 +40,15 @@ p{
 }
 
 .box {
-    height: 50px;
-    width: 50px;
+    display: inline-block;
+    position: absolute;
+    height: 250px;
+    width: 250px;
     background-color: blue;      
     padding: 20px 50px;
     border-color: darkcyan;
-    margin: 20px;                                                                                                                                                                                                                                                                                                                                                                                                        
+    margin: 20px;     
+    z-index: -1;                                                                                                                                                                                                                                                                                                                                                                                                   
 }
 
 .cont{
@@ -60,4 +63,12 @@ nav {
     margin: 0 auto;
     left: 620px;
     top: 100px;
+}
+.card {
+    position: relative;
+}
+.red {
+    background-color: red;
+    position: absolute;
+    left: 80px;
 }
