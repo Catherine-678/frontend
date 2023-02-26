@@ -1,0 +1,58 @@
+body{
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+    color: salmon;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+h2{
+    text-align: center;
+    color:brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+ol{
+    list-style: upper-roman;
+}
+
+li{
+    color:blueviolet;
+    font-weight: bold;
+}
+p{
+    text-align: justify;
+    color: blueviolet;
+}
+
+.text {
+    font-style: italic;
+}
+
+.boldtext {
+    font-weight: bold;
+}
+
+.box {
+    box-sizing: border-box;
+    height: 300px;
+    width: 300px;
+    background-color: blue;      
+    padding: 50px;
+    border: 5px darkcyan dashed;
+    margin: 20px;                                                                                                                                                                                                                                                                                                                                                                                                 
+}
+
+img {
+    display:inline-block;
+}
+
+.ssylka{
+    display: inline-block;
+}
