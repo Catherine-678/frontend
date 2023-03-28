@@ -163,14 +163,13 @@ h2.title{
 
 .waiting .waiting_wrapper{
     margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .waiting .waiting_wrapper .waiting_item{
     width: 339px;
-    display: inline-block;
-    vertical-align: top;
     text-align: center;
-    margin: 0 15px;
 }
 
 .waiting .waiting_wrapper .waiting_item .waiting_img{
@@ -185,6 +184,6 @@ h2.title{
     font-size: 15px;
     line-height: 21px;
     color: #4A4A4A;
-    
+
 }
 
