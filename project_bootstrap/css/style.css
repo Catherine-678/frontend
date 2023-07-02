@@ -3,7 +3,11 @@
 }
 
 header{
-    height: 53px;
+    position: relative;
+}
+
+nav{
+    height: 50px;
     background-color: #212121;
 }
 
@@ -24,4 +28,177 @@ header{
 .menu .menu_item{
     border-right: 2px dotted black;
     padding-right: 25px;
+}
+
+.subheader{
+    position: absolute;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.6); /* при создании полупрозрачного блока следует пользоваться кодировкой rgba, а значение альфа-канала указывать равное значению opacity*/
+    min-height: 87.906px;
+}
+
+.subheader .subheader_logo{
+    display: block; /* для того, чтобы работал margin*/
+    margin-top: 16px;
+    max-width: 100%; /* размер 100% от ссылки, таким образом, если логотип поменяется, размер не изменится*/
+}
+
+.subheader .oficial_partner{
+    color: #FFF;
+    margin-top: 6px;
+    opacity: 0.5;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.subheader .subheader_call{
+    margin-top: 22px;
+    color: #FFF;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+}
+
+.subheader_phone_number{
+    color: #FFF;
+    display:block;
+    margin-top: 8px;
+    text-align: right;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+.subheader .subheader_btn{
+    width: 170px;
+    height: 46px;
+    margin-top: 22px;
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.12) inset;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.21);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.promo{
+    background: url(../img/bg/uber_bg.png) center center/cover no-repeat;
+    min-height: 800px;
+    padding: 150px 0 135px 0;
+}
+
+h1{
+    margin: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.invite{
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0;
+    margin-top: 22px; /* необходимый margin  ВСЕГДА выставляется ПОСЛЕ обнуления*/
+}
+
+.promo_txt{
+    color: #FFF;
+    text-align: center;
+    margin-top: 23px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.promo_btn{
+    width: 255.631px;
+    height: 63.656px;
+    display: block;
+    margin: 118px auto 0 auto;
+    border-radius: 4px;
+    border:none;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.12) inset;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.21);
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.reasons{
+    margin-top: 42px;
+    margin-bottom: 42px;
+    min-height: 775px;
+}
+
+.reasons .rectangle{
+    display: block;
+    margin: 0 auto;
+    width: 115px;
+    height: 27.313px;
+    background-color:black;
+    color: #FFF;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.reasons .reasons_why{
+    color: #222;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.reasons .reasons_ennumerated{
+    width: 372px; 
+    min-height: 150px; 
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.reasons .reasons_ennumerated .reasons_round{
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    margin-right: 17px;
+    width: 117px;
+    height: 117px;
+    border-radius: 100%;
+    background: #1EACC7;
+}
+
+.reasons .reasons_icon_header{
+    width: 371px;
+    color: #1EACC7;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.reasons .reasons_icon_txt{
+    width: 371px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 21px;
 }
