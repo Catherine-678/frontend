@@ -139,66 +139,63 @@ h1{
 }
 
 .reasons{
-    margin-top: 42px;
-    margin-bottom: 42px;
-    min-height: 775px;
+    padding: 71px 0 65px 0;
 }
 
-.reasons .rectangle{
-    display: block;
+.label {
     margin: 0 auto;
-    width: 115px;
-    height: 27.313px;
-    background-color:black;
-    color: #FFF;
-    text-align: center;
+    height: 24px;
+    width: 112px;
+    padding: 5px 12px;
+    background-color: #000000;
+    color: #ffffff;
     font-size: 11px;
-    font-weight: 400;
-    line-height: 28px;
+    font-weight: 300;
     text-transform: uppercase;
 }
 
-.reasons .reasons_why{
-    color: #222;
-    text-align: center;
+.title {
+    margin-bottom: 0;
+    margin-top: 38px;
+    color: #222222;
     font-size: 38px;
     font-weight: 700;
-    line-height: 38px;
     text-transform: uppercase;
-    margin-top: 30px;
+    text-align: center;
 }
 
-.reasons .reasons_ennumerated{
-    width: 372px; 
-    min-height: 150px; 
-    margin-top: 20px;
-    display:flex;
-    justify-content: space-between;
-}
-
-.reasons .reasons_ennumerated .reasons_round{
+.reasons .reasons_block {
     display: flex;
-    flex-shrink: 0;
-    align-items: center;
     justify-content: center;
-    margin-right: 17px;
-    width: 117px;
-    height: 117px;
-    border-radius: 100%;
-    background: #1EACC7;
+    align-items: center;
+    margin-top: 35px;
 }
 
-.reasons .reasons_icon_header{
-    width: 371px;
-    color: #1EACC7;
+.reasons .reasons_block .reasons_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+
+.reasons .reasons_block .reasons_descr {
+    width: 343px;
+}
+
+.reasons .reasons_block .reasons_descr .reasons_subtitle{
+    line-height: 21px;
+    color: #1eacc7;
     font-size: 17px;
     font-weight: 400;
 }
 
-.reasons .reasons_icon_txt{
-    width: 371px;
-    font-size: 16px;
-    font-weight: 400;
-    text-align: left;
+.reasons .reasons_block .reasons_descr .reasons_text {
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
     line-height: 21px;
 }
