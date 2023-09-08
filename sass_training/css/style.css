@@ -7,26 +7,30 @@ h1 {
   height: 300px;
   margin-top: 15px;
   background-color: yellow;
-  border: none; }
+  border: none;
+}
 
 h2 {
   color: purple;
-  font-size: 50px; }
+  font-size: 50px;
+}
 
 .block {
-  background-color: wheat; }
-  .block h3 {
-    color: purple; }
-  .block_test {
-    background-color: lightblue; }
-    .block_test button {
-      display: block;
-      margin: 0 auto;
-      width: 300px;
-      height: 300px;
-      margin-top: 15px;
-      background-color: yellow;
-      border: none;
-      cursor: pointer; }
-
-/*# sourceMappingURL=style.css.map */
+  background-color: wheat;
+}
+.block h3 {
+  color: purple;
+}
+.block_test {
+  background-color: lightblue;
+}
+.block_test button {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  margin-top: 15px;
+  background-color: yellow;
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
