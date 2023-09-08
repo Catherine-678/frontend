@@ -131,7 +131,7 @@ h2.title{
     padding: 85px 0 75px 0;
 }
 
-.waiting .header, .finish .finish_header{
+.waiting .header, .finish .finish_header, .first_webinar .first_webinar_announcement{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -196,7 +196,7 @@ h2.title{
     padding: 105px 0 107px 0;
 }
 
-.optimization .optimization_header, .first_webinar .first_webinar_header{
+.optimization .optimization_header{
     margin-left: 391px;
     font-family: 'Roboto';
     font-style: normal;
@@ -276,7 +276,7 @@ z-index: -1;
     margin: 0 auto;
 }
 
-.bonus .bonus_text{
+.bonus .bonus_text, .first_webinar .hurry_up{
     margin-top: 45px;
     font-family: 'Roboto';
     font-style: normal;
@@ -289,4 +289,15 @@ z-index: -1;
 .first_webinar{
     min-height: 425px;
     padding: 8px 0 42.5px 0;
+}
+
+.first_webinar .date_and_time{
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 29px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #299CBD;
 }

@@ -1,0 +1,27 @@
+$favorite: purple
+@mixin square 
+    display: block
+    margin: 0 auto
+    width: 300px
+    height: 300px
+    margin-top: 15px
+    background-color: yellow
+    border: none 
+    
+
+h1
+    color: $favorite
+    font-size: 40px
+    @include square
+h2
+    color: purple
+    font-size: 50px
+.block
+    background-color: wheat
+    h3
+        color: $favorite
+    &_test
+        background-color: lightblue
+        button
+            @include square
+            cursor: pointer
