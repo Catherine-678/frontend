@@ -274,6 +274,40 @@ h1 {
   padding: 57px 0 138px 0;
   background: url("../img/bg/mobile_app.png") center center/cover no-repeat;
 }
+.choice .label_little {
+  margin: 0 auto;
+  height: 27px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #ffffff;
+  color: #000;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+.choice .title_white {
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #fff;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+.choice .subtitle_white {
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px;
+  position: relative;
+  z-index: 2;
+}
 .choice_img {
   position: relative;
   display: block;
@@ -287,6 +321,8 @@ h1 {
   font-size: 17px;
   font-weight: 300;
   line-height: 24px;
+  position: relative;
+  z-index: 2;
 }
 .choice .black {
   position: absolute;
@@ -498,6 +534,9 @@ footer a:hover {
   .reasons_block {
     align-items: flex-start;
   }
+  .reasons_round {
+    margin-right: 0;
+  }
   .mobile_item {
     width: 300px;
   }
@@ -564,6 +603,7 @@ footer a:hover {
     padding: 20px 15px;
     background-color: rgba(0, 0, 0, 0.8);
     transition: 0.6s all;
+    z-index: 1;
   }
   .menu_active {
     left: 0;
@@ -611,10 +651,119 @@ footer a:hover {
   .xs-visible {
     display: block;
   }
-  .subheader_phone_number {
+  .subheader .subheader_phone_number {
+    display: block;
     color: #fff;
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .subheader .subheader_btn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .promo h1 {
+    line-height: 45px;
+  }
+}
+@media (max-width: 576px) {
+  nav {
+    height: 30px;
+  }
+  header {
+    height: 30px;
+  }
+  .subheader .subheader_logo img {
+    margin-top: 16px;
+  }
+  .subheader .oficial_partner {
+    display: none;
+  }
+  .subheader .subheader_phone_number {
+    margin-top: 11px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .subheader .subheader_btn {
+    margin-top: 6px;
+    height: 22px;
+    width: 110px;
+    font-size: 10px;
+  }
+  .promo {
+    min-height: 400px;
+    padding: 93px 0 35px 0;
+  }
+  .promo .promo_txt {
+    display: none;
+  }
+  .promo h1 {
+    font-size: 30px;
+    padding: 0 24px;
+    line-height: 35px;
+  }
+  .promo .invite {
+    font-size: 20px;
+    padding: 0 10px;
+    margin-top: 33px;
+    line-height: 30px;
+  }
+  .promo_btn {
+    width: 220px;
+    height: 50px;
+    margin-top: 72px;
+  }
+  .menu {
+    width: 85%;
+  }
+  .reasons {
+    padding: 22px 0 36px 0;
+  }
+  .reasons_block {
+    margin-top: 26px;
+  }
+  .reasons_round {
+    width: 100px;
+    height: 100px;
+  }
+  .reasons_descr {
+    width: 100%;
+    margin-top: 27px;
+  }
+  .reasons_subtitle {
+    font-size: 16px;
+  }
+  .title {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .mobile .subtitle {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+  .choice {
+    margin-bottom: 60px;
+    padding-bottom: 0;
+    min-height: 400px;
+  }
+  .choice .title {
+    display: none;
+  }
+  .choice .subtitle {
+    display: none;
+  }
+  .choice_descr {
+    color: #fff;
+    font-size: 17px;
+    line-height: 24px;
   }
 }/*# sourceMappingURL=style.css.map */
